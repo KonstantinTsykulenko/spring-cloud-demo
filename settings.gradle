@@ -1,0 +1,9 @@
+rootProject.name = 'spring-cloud-demo'
+
+include 'infrastructure/auth-service'
+include 'infrastructure/config-service'
+include 'infrastructure/gateway-service'
+include 'infrastructure/eureka-service'
+include 'business/inventory-service'
+include 'business/reservation-service'
+

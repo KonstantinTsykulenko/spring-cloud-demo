@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    hostname: localhost
+    port: ${server.port}
+  client:
+    registryFetchIntervalSeconds: 5
+  metadataMap:
+    instanceId: ${spring.application.name}:${random.value}

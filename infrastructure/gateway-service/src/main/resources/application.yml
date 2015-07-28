@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+zuul:
+  ignoredServices: "*"
+  routes:
+    inventory:
+      serviceId: inventory-service
+      path: /inventory/**
+    reservation:
+      serviceId: reservation-service
+      path: /reservation/**

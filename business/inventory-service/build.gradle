@@ -1,0 +1,5 @@
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa:1.2.5.RELEASE'
+    compile 'com.h2database:h2:1.4.187'
+    compile 'org.springframework.data:spring-data-rest-webmvc:2.3.1.RELEASE'
+}
